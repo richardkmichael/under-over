@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'guard'
+gem 'guard-test'
+gem 'rb-fsevent', :require => false # MacOS
+gem 'rb-inotify', :require => false # Linux
